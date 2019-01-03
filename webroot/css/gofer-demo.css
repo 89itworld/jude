@@ -1,0 +1,139 @@
+.masonry-section-demo {
+	margin: 70px 0;
+}
+.trip-flight-hotel-section-demo,
+.sale-flights-section-demo {
+	margin-top: 30px;
+	margin-bottom: 200px;
+}
+.masonry-section-demo .more-destination {
+	background-image: url(../img/bg-button.jpg);
+}
+.travelling-block-section-demo {
+	background-image: url(../img/17.jpg);
+}
+.category-heading-section-demo {
+	background-image: url(http://placehold.it/1850x350);
+}
+.login-page-demo {
+	background-image: url(../img/1.jpg);
+}
+.register-page-demo {
+	background-image: url(../img/2.jpg);
+}
+.page-heading-demo {
+	background-image: url(../img/backgrounds/judefly-travel-blog-banner.jpg);
+}
+.more-destination {
+	background-image: url(../img/bg-button.jpg);
+}
+.widget_background__half .bg {
+	background-image: url(../img/2.jpg);
+}
+
+.your-destinations-section-demo {
+	margin-top: 50px;
+	margin-bottom: 150px;
+}
+.checkout-section-demo {
+    padding-top: 62px;
+    padding-bottom: 140px;
+}
+
+
+/*autocomplete*/
+
+.ui-autocomplete {
+  z-index: 9999;
+  max-height: 250px;
+  overflow-y: scroll;
+  background-color: rgb(255, 255, 255);
+}
+
+/*loader*/
+.redirect-wrap {
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: none;
+}
+.flight_loader {
+  display: block;
+  position: relative;
+  margin: auto;
+  z-index: 1500;
+  width: 47%;
+  height: auto;
+  top: 30%;
+  background-color: rgb(236, 231, 227);
+}
+.redirect-img img {
+  margin: 38px 27px 0;
+}
+.progress-bar {
+  width: 100%;
+}
+.redirect-wrap {
+  text-align: center;
+}
+
+/*for rating star 1-4-2016 */
+.stars-box {
+  background-repeat: no-repeat;
+  height: 15px;
+  background-position: right;
+  display: inline-block;
+  width: 100%;
+  padding: 5px 18px 0 0;
+}
+.rating_bar {
+  /*this class creats 5 stars bar with empty stars */
+  /*each star is 16 px, it means 5 stars will make 80px together */
+  width: 80px;
+  /*height of empty star*/
+  height: 15px;
+  /*background image with stars */
+  background: url('../img/stars.png');
+  /*which will be repeated horizontally */
+  background-repeat: repeat-x;
+  /* as we are using sprite image, we need to position it to use right star,
+  //0 0 is for empty */
+  background-position: 0 0;
+  /* align inner div to the left */
+  text-align: left;
+  margin: 0 auto;
+  display: inline-block;
+}
+
+.rating {
+  /* height of full star is the same, we won't specify width here */
+  height: 16px;
+  /* background image with stars */
+  background: url('../img/stars.png');
+  /* now we will position background image to use 16px from top,
+  //which means use full stars */
+  background-position: 0 -16px;
+  /* and repeat them horizontally */
+  background-repeat: repeat-x;
+}
+
+.offer{
+  color: rgb(255, 0, 0);
+  font-size: 10px;
+}
+.awe-icon {
+  cursor: default;
+}
+.filter-page {
+  margin-bottom: 10px !important;
+}
+
+.form-error {
+    color: rgb(173, 39, 39) !important;
+    font-size: 12px !important;
+}

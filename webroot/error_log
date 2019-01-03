@@ -1,0 +1,9 @@
+[22-May-2017 11:21:35 UTC] PHP Fatal error:  Call to a member function errors() on a non-object in /home/judefly/public_html/vendor/cakephp/cakephp/src/ORM/Table.php on line 1370
+[22-May-2017 11:24:25 UTC] PHP Fatal error:  Call to a member function errors() on a non-object in /home/judefly/public_html/vendor/cakephp/cakephp/src/ORM/Table.php on line 1370
+[22-May-2017 11:26:05 UTC] PHP Fatal error:  Call to a member function errors() on a non-object in /home/judefly/public_html/vendor/cakephp/cakephp/src/ORM/Table.php on line 1370
+[22-May-2017 11:28:57 UTC] PHP Fatal error:  Call to a member function patchEntity() on a non-object in /home/judefly/public_html/src/Controller/UsersController.php on line 136
+[22-May-2017 11:37:35 UTC] PHP Fatal error:  Call to a member function toArray() on a non-object in /home/judefly/public_html/src/Controller/UsersController.php on line 124
+[22-May-2017 11:42:01 UTC] PHP Fatal error:  Call to a member function toArray() on a non-object in /home/judefly/public_html/src/Controller/UsersController.php on line 140
+[24-May-2017 12:40:08 UTC] PHP Fatal error:  Call to a member function toArray() on a non-object in /home/judefly/public_html/src/Controller/UsersController.php on line 141
+[29-May-2017 06:10:04 UTC] PHP Fatal error:  Class 'App\Controller\Email' not found in /home/judefly/public_html/src/Controller/UsersController.php on line 36
+[06-Jun-2017 09:14:40 UTC] PHP Fatal error:  Call to a member function toArray() on a non-object in /home/judefly/public_html/src/Controller/UsersController.php on line 146

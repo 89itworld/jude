@@ -1,0 +1,22 @@
+.error-message{
+    color: red;
+}
+.input.date label {
+    display: block !important;
+}
+.info-alert {
+    width: 400px;
+    margin: 0 auto;
+    position: fixed;
+    top: 10px;
+    z-index: 99999;
+    right: 11px;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.awe-parallax.admin-login {
+    background-color: rgba(0, 0, 0, 0.3);
+}
